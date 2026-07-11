@@ -40,12 +40,12 @@ void _stdcall Plugin::DestroyObject() {
   TCPPFruityPlug::DestroyObject();  // don't forget this
 };
 
-int _stdcall Plugin::Dispatcher( int ID, int Index, int Value ) {
+intptr_t _stdcall Plugin::Dispatcher( intptr_t ID, intptr_t Index, intptr_t Value ) {
   // todo
   return 0;
 };
 
-void _stdcall Plugin::Idle() {
+void Plugin::Idle() {
   TCPPFruityPlug::Idle();
   // todo
 };
