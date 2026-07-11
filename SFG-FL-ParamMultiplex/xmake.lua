@@ -8,7 +8,7 @@ target( "SFG-FL-ParamMultiplex" )
     end
 
     set_default( true )
-    set_group( "LIBS" )
+    set_group( "PLUGINS" )
 
     set_basename( "SFG-FL-ParamMultiplex_$(arch)" )
 
